@@ -1,0 +1,5 @@
+#1452 - Cannot add or update a child row: a foreign key constraint fails (`company`.`employee`, CONSTRAINT `employee_ibfk_1` FOREIGN KEY (`dno`) REFERENCES `department` (`dnumber`))
+
+#1452 - Cannot add or update a child row: a foreign key constraint fails (`company`.`project`, CONSTRAINT `employee_ibfk_1` FOREIGN KEY (`dno`) REFERENCES `department` (`dnumber`))
+
+SET GLOBAL FOREIGN_KEY_CHECKS=0;
